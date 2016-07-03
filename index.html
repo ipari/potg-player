@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>잎TV</title>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <style>
+        @font-face {
+            font-family: koverwatch;
+            src: url('Koverwatch.woff');
+        }
+        body {
+            background: #222;
+            color: #aaa;
+            font: italic 24px/1.0 koverwatch, sans-serif;
+        }
+        p {
+            margin: 0 0 4px 0;
+        }
+        .container {
+            text-align: center;
+        }
+        .info {
+            margin-top: 0.5em;
+            font-family: koverwatch;
+        }
+        .player {
+            font-size: 3em;
+            color: #ff9c00;
+        }
+        .character {
+            font-size: 1.4em;
+            color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="video">
+            <video id="potg" width="100%" autoplay controls>
+            <source src="" type="video/mp4">
+            </video>
+        </div>
+        <div class="info">
+            <div class="left">
+            <p class="player"></p>
+            <p class="character"></p>
+            </div>
+            <div class="right">
+            </div>
+            <span class="date"></span>
+            <span class="map"></span>
+            <span class="turn"></span>
+        </div>
+    </div>
+
+</body>
+</html>
