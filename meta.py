@@ -12,7 +12,7 @@ for filename in os.listdir(vod_path):
         info['filename'] = filename
         info['date'] = raw_info[0]
         info['player'] = raw_info[1]
-        info['character'] = raw_info[2]
+        info['hero'] = raw_info[2]
         info['map'] = raw_info[3]
         info['turn'] = raw_info[4]
         meta.append(info)
